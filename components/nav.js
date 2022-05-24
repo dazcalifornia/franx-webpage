@@ -57,7 +57,7 @@ export default function Navbar(){
               </Link>
             </li>
             <li>
-              <Link href="/" scroll={false}>
+              <Link href="https://github.com/dazcalifornia/franx-webpage" scroll={false}>
                 <button className="p-3 bg-transparent rounded-md justify-center text-sm  dark:text-black">
                 <span className="flex content-start item-center link-underline link-underline-black">
                     <svg
