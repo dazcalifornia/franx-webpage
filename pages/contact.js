@@ -28,15 +28,16 @@ export default function contact(){
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   A passionate full-stack Developer & Software Engineer from Thailand 🇹🇭
                 </p>
-                 - 🔭 I’m currently working on [Lunar](https://github.com/dazcalifornia/Lunar)
+                <pre>
+                 - 🔭 I’m currently working on <a class="text-sky-400 after:content-['_↗'] ..." href="https://github.com/dazcalifornia/Lunar">Lunar</a>
 
-                - 👨‍💻 All of my projects are available at my [Github](www.github.com/dazcalifornia)
+                - 👨‍💻 All of my projects are available at my <a class="text-sky-400 after:content-['_↗'] ..." href=" www.github.com/dazcalifornia">github</a>
+      
 
-                - 📝 I regularly write articles on [http://franx-webpage.vercel.app/](http://franx-webpage.vercel.app/)
-
-                - 📫 How to reach me **franx.essential@gmail.com**
+                - 📫 How to reach me <a href="mailto: franx.essential@gmail.com" class="text-sky-400 after:content-['_↗'] ...">franx.essential@gmail.com</a>
 
                 - ⚡ Fun fact **I think I'm workaholic and I really talk a lot**
+                  <pre>
               </div>
             </div>
           </div>
