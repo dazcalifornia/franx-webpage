@@ -32,15 +32,16 @@ export default function Navbar() {
             className="sm:visible dark:text-white text-black p-3 bg-gray-900 rounded-md justify-center"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           >
-            {theme == "light" ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 fill-white"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-              </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 fill-white"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+            </svg>
+            {theme === "light" ? (
+              "Dark"
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
