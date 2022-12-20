@@ -28,12 +28,12 @@ export default function contact(){
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   A passionate full-stack Developer & Software Engineer from Thailand 🇹🇭
                 </p>
-                <p> - 🔭 I’m currently working on <a class="text-sky-400 after:content-['_↗'] ..." href="https://github.com/dazcalifornia/Lunar">Lunar</a></p>
+                <p> - 🔭 I’m currently working on <a className="text-sky-400 after:content-['_↗'] ..." href="https://github.com/dazcalifornia/Lunar">Lunar</a></p>
 
-                <p>- 👨‍💻 All of my projects are available at my <a class="text-sky-400 after:content-['_↗'] ..." href=" www.github.com/dazcalifornia">github</a></p>
+                <p>- 👨‍💻 All of my projects are available at my <a className="text-sky-400 after:content-['_↗'] ..." href=" www.github.com/dazcalifornia">github</a></p>
       
 
-                <p>- 📫 How to reach me <a href="mailto: franx.essential@gmail.com" class="text-sky-400 after:content-['_↗'] ...">franx.essential@gmail.com</a></p>
+                <p>- 📫 How to reach me <a href="mailto: franx.essential@gmail.com" className="text-sky-400 after:content-['_↗'] ...">franx.essential@gmail.com</a></p>
 
                 <p>- ⚡ Fun fact **I think I'm workaholic and I really talk a lot**</p>
 
