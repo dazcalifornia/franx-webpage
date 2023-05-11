@@ -2,7 +2,6 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { gitIcon } from "/public/github.svg";
 
 export default function chatapp() {
   return (
