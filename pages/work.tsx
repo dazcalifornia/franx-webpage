@@ -38,13 +38,83 @@ export default function works(){
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-center">
+              
+               <Link href="../works/wqdb">
+                <a>
+                  <div className="felx-col hover:-translate-y-1 hover:scale-105 ease-in-out delay-150 duration-300">
+                    <Image
+                      src="/assets/wqdb.png"
+                      width={275}
+                      height={170}
+                      layout={"responsive"}
+                      className="rounded-xl"
+                      alt="profile"
+                    />
+                    <article className="prose pt-8">
+                      <h1 className="text-base dark:text-white">WaterQuality Predition Website</h1>
+                      <p className="text-left indent-2 text-sm dark:text-white">
+                        Website that can Predict WaterQuality value such as PH Salinity ..etc
+                        this website run on FastAPI framework and use Machine Learning model to predict
+                        and use Next.js for Front end
+                      </p>
+                    </article>
+                  </div>
+                </a>
+              </Link>
+
+
+              <Link href="../works/dashboard">
+                <a>
+                  <div className="felx-col hover:-translate-y-1 hover:scale-105 ease-in-out delay-150 duration-300">
+                    <Image
+                      src="/assets/jincsint.png"
+                      width={275}
+                      height={170}
+                      layout={"responsive"}
+                      className="rounded-xl"
+                      alt="profile"
+                    />
+                    <article className="prose pt-8">
+                      <h1 className="text-base dark:text-white">Student enroll management Website</h1>
+                      <p className="text-left indent-2 text-sm dark:text-white">
+                      Website that can manage student enroll and Grade in the university 
+                      made with next.js and LumenAPI
+                      </p>
+                    </article>
+                  </div>
+                </a>
+              </Link>
+              
+
+              <Link href="../works/csproject">
+                <a>
+                  <div className="felx-col hover:-translate-y-1 hover:scale-105 ease-in-out delay-150 duration-300">
+                    <Image
+                      src="/assets/csprodj.png"
+                      width={275}
+                      height={170}
+                      layout={"responsive"}
+                      className="rounded-xl"
+                      alt="profile"
+                    />
+                    <article className="prose pt-8">
+                      <h1 className="text-base dark:text-white">Telex-Chat application</h1>
+                      <p className="text-left indent-2 text-sm dark:text-white">
+                        A chat application that can send message made with React and Firebase
+                        
+                      </p>
+                    </article>
+                  </div>
+                </a>
+              </Link>
+
               <Link href="../works/chatapp">
                 <a>
                   <div className="felx-col hover:-translate-y-1 hover:scale-105 ease-in-out delay-150 duration-300">
                     <Image
                       src="/assets/chat.png"
                       width={275}
-                      height={150}
+                      height={170}
                       layout={"responsive"}
                       className="rounded-xl"
                       alt="profile"
@@ -66,7 +136,7 @@ export default function works(){
                     <Image
                       src="/assets/shop.png"
                       width={275}
-                      height={150}
+                      height={170}
                       layout={"responsive"}
                       className="rounded-xl"
                       alt="profile"
@@ -89,7 +159,7 @@ export default function works(){
                     <Image
                       src="/assets/line.png"
                       width={275}
-                      height={150}
+                      height={170}
                       layout={"responsive"}
                       className="rounded-xl"
                       alt="profile"

@@ -1,8 +1,9 @@
+
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-export default function Csprodj(){
+export default function Dashboard(){
     return (
       <div className="relative flex flex-col min-h-screen justify-center bg-main dark:bg-darkMain py-6 sm:py-12 ">
         <Head>
@@ -30,59 +31,22 @@ export default function Csprodj(){
                     Works
                   </a>
                 </Link>
-                <p className="pl-2 dark:text-white">{">"} Telex-Chat </p>
+                <p className="pl-2 dark:text-white">{">"} WaterQuality Dashboard  </p>
               </span>
             </div>
             {/* information */}
             <article className="prose pt-8">
             <p className="text-left indent-4 md:px-4 text-base dark:text-white">
-                This is a FinalTerm project for my university It's React-native with expo project its call "Telex Chat app"
-              </p>
-            <div className="p-1 dark:bg-emerald-400/20 dark:text-emerald-200 text-sm font-semibold rounded-md shadow-lg focus:outline-none text-emerald-600 bg-emerald-500/50">
-                Screenshot
-              </div>
-              <div className="grid grid-cols-3 hover:-translate-y-1 hover:scale-105 ease-in-out delay-150 duration-300">
-                <Image
-                  src="/assets/Telex/Picture1.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                <Image
-                  src="/assets/Telex/Picture2.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                  <Image
-                  src="/assets/Telex/Picture3.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                <Image
-                  src="/assets/Telex/Picture4.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                  <Image
-                  src="/assets/Telex/Picture5.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                <Image
-                  src="/assets/Telex/Picture6.png"
-                  width={194}
-                  height={379}
-                  alt="screenshot"
-                  />
-                          
-
-              </div>   
+              This is a work of student in mahidol hire me to make this website for 
+              visual waterdata and predict value for used by other people such as fisherman or someone who need to make an reserch in water area  
               
 
+            </p>
+              <pre className="whitespace-pre-wrap text-left">
+              **This project still work in process on UI but all function is completely done **
+              and demo was passed function from professor in Mahidol 
+            </pre>
+            
             </article>
             <div className="text-left pt-4 ">
               <span className="flex content-start items-center">
@@ -92,7 +56,7 @@ export default function Csprodj(){
                 <Link href="https://github.com/dazcalifornia/Line_Petfunds_Api">
                   <div className="pl-3 truncate">
                     <p className="truncate hover:bg-emerald-400/20 cursor-pointer p-1 rounded-md duration-300 no-underline hover:underline dark:text-white">
-                      https://github.com/dazcalifornia/Telex-PROJECT_CS
+                      https://github.com/dazcalifornia/waterQuality
                     </p>
                   </div>
                 </Link>
@@ -103,3 +67,4 @@ export default function Csprodj(){
       </div>
     );
 }
+

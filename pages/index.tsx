@@ -13,7 +13,7 @@ export default function Home() {
             <div className="py-1 bg-black text-white no-underline decoration/30 rounded-xl shadow-md mx-10 opacity-70">
               <p className="text-base">
                 "I'm student in Kasetsart university Lived in Thailand"
-              </p>
+              </p> 
             </div>
           </article>
 
@@ -59,6 +59,29 @@ export default function Home() {
                     </span>
                   </button>
                 </Link>
+              </article>
+            </div>
+
+            <div className="relative pb-4 sm:max-w-lg">
+              <article className="prose pt-8">
+                <h1 className="text-left text-lg dark:text-white">Skill(Language) & Tools:</h1>
+                <span className="flex content-start items-center">
+                  <p className="text-lg font-bold dark:text-white">Language:</p>{" "}
+                  <p className="pl-8 dark:text-white">
+                    <pre className="whitespace-pre-wrap text-left">
+                      C,C++,Java,python,HTML+CSS+JS,Node.JS,Typescript,Eslint,Golang,Kotlin,PHP,Dart
+                    </pre>
+                  </p>
+                </span>
+                  <span className="flex content-start items-center">
+                  <p className="text-lg font-bold dark:text-white">Tools:</p>{" "}
+                  <p className="pl-8 dark:text-white">
+                    <pre className="whitespace-pre-wrap text-left">
+                      ReactExpo,ReactNative,Nginx,Docker,TensorFlow,Sevelte,Laravel,Linux,Bash,Tailwind,
+                      Electron,GraphQL,Flutter,Git,Firebase,Flask,FastAPI
+                    </pre>
+                  </p>
+                </span>
               </article>
             </div>
 
