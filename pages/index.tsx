@@ -69,8 +69,9 @@ export default function Home() {
                   <p className="text-lg font-bold dark:text-white">Language:</p>{" "}
                   <p className="pl-8 dark:text-white">
                     <p className="text-left md:px-4 text-base dark:text-white break-words">
-                      C,C++,Java,python,HTML+CSS+JS,
-                      Node.JS,Typescript,Eslint,
+                      C,C++,Java,python,
+                      HTML+CSS+JS,Node.JS,
+                      Typescript,Eslint,
                       Golang,Kotlin,PHP,Dart
                     </p>
                   </p>
