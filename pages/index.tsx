@@ -62,24 +62,30 @@ export default function Home() {
               </article>
             </div>
 
-            <div className="relative pb-4 sm:max-w-lg">
+            <div className="relative pb-4 sm:max-w-lg ">
               <article className="prose pt-8">
                 <h1 className="text-left text-lg dark:text-white">Skill(Language) & Tools:</h1>
                 <span className="flex content-start items-center">
                   <p className="text-lg font-bold dark:text-white">Language:</p>{" "}
                   <p className="pl-8 dark:text-white">
-                    <pre className="whitespace-pre-wrap text-left">
-                      C,C++,Java,python,HTML+CSS+JS,Node.JS,Typescript,Eslint,Golang,Kotlin,PHP,Dart
-                    </pre>
+                    <p className="text-left md:px-4 text-base dark:text-white break-words">
+                      C,C++,Java,python,HTML+CSS+JS,
+                      Node.JS,Typescript,Eslint,
+                      Golang,Kotlin,PHP,Dart
+                    </p>
                   </p>
                 </span>
-                  <span className="flex content-start items-center">
+                  <span className="flex content-start items-center ">
                   <p className="text-lg font-bold dark:text-white">Tools:</p>{" "}
                   <p className="pl-8 dark:text-white">
-                    <pre className="whitespace-pre-wrap text-left">
-                      ReactExpo,ReactNative,Nginx,Docker,TensorFlow,Sevelte,Laravel,Linux,Bash,Tailwind,
-                      Electron,GraphQL,Flutter,Git,Firebase,Flask,FastAPI
-                    </pre>
+                    <p className="text-left  md:px-4 text-base dark:text-white break-words sm:text-clip sm:overflow-hidden">
+                      React,ReactNative,Nginx,
+                      Docker,TensorFlow,Sevelte,
+                      Laravel,Linux,Bash,
+                      Tailwind,Electron,GraphQL,
+                      Flutter,Git,Firebase,
+                      Flask,FastAPI
+                    </p>
                   </p>
                 </span>
               </article>
