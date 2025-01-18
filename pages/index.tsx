@@ -121,50 +121,66 @@ export default function Home() {
                   Key Projects:
                 </h1>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Cryptocurrency Application</strong>
+                  <strong className="dark:text-white">
+                    Cryptocurrency Application
+                  </strong>
                   <br />
                   Code refactoring and bug fixing to enhance stability and
                   functionality. Worked closely with the client to meet business
                   requirements.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Bus Schedule Application</strong>
+                  <strong className="dark:text-white">
+                    Bus Schedule Application
+                  </strong>
                   <br />
                   Designed and developed an intuitive bus schedule app with
                   React Native, Expo, and PocketBase.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Power Talent Application</strong>
+                  <strong className="dark:text-white">
+                    Power Talent Application
+                  </strong>
                   <br />
                   Built a platform for freelancers using React Native, Expo,
                   Node.js, Express, Redis, PocketBase, and Cloudflare.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Water Quality Prediction Website</strong>
+                  <strong className="dark:text-white">
+                    Water Quality Prediction Website
+                  </strong>
                   <br />
                   Developed a site for predicting water quality parameters using
                   Next.js and FastAPI.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Student Enrollment Management System</strong>
+                  <strong className="dark:text-white">
+                    Student Enrollment Management System
+                  </strong>
                   <br />
                   Created a platform to manage enrollments and grades with
                   Next.js and Lumen API.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Telex-Chat Application</strong>
+                  <strong className="dark:text-white">
+                    Telex-Chat Application
+                  </strong>
                   <br />
                   Built a chat application using React Native, Expo, and
                   Firebase for real-time messaging.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Shop Management Application</strong>
+                  <strong className="dark:text-white">
+                    Shop Management Application
+                  </strong>
                   <br />
                   Developed a shop management system for inventory tasks with
                   database integration.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>LINE Pet Funds Chatbot</strong>
+                  <strong className="dark:text-white">
+                    LINE Pet Funds Chatbot
+                  </strong>
                   <br />
                   Developed a chatbot for pet fund donations using Node.js and
                   LINE's Messaging API.
@@ -178,7 +194,9 @@ export default function Home() {
                   Education:
                 </h1>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>Bachelor of Science in Computer Science</strong>
+                  <strong className="dark:text-white">
+                    Bachelor of Science in Computer Science
+                  </strong>
                   <br />
                   Kasetsart University Sriracha Campus (2019-2024)
                 </p>
