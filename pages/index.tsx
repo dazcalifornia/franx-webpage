@@ -95,7 +95,7 @@ export default function Home() {
                   Professional Experience:
                 </h1>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>
+                  <strong className="dark:text-white">
                     Front-End Developer | KOS Design (Jun 2023 - Nov 2023)
                     Internship
                   </strong>
@@ -104,7 +104,7 @@ export default function Home() {
                   performance, and implemented responsive UI/UX designs.
                 </p>
                 <p className="text-left md:px-4 text-base dark:text-white">
-                  <strong>
+                  <strong className="dark:text-white">
                     IT Support (ITSM/ITAM) | Kasikornbank (May 2024 - Nov 2024)
                     By Contract
                   </strong>
